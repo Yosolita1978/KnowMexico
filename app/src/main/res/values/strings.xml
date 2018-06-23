@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Know Mexico</string>
+    <string name="city_name">Mexico City</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_city_fragment">Hello city fragment</string>
+</resources>
