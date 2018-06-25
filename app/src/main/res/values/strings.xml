@@ -4,4 +4,18 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_city_fragment">Hello city fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_do_fragment">Hello What To Do fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_eat_fragment">Hello What To Eat fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_drink_fragment">Hello What To Drink fragment</string>
+
+    <string name="city">City</string>
+    <string name="todo">To Do</string>
+    <string name="toeat">To Eat</string>
+    <string name="todrink">To Drink</string>
 </resources>
