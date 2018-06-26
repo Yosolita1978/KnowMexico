@@ -18,4 +18,13 @@
     <string name="todo">To Do</string>
     <string name="toeat">To Eat</string>
     <string name="todrink">To Drink</string>
+    <string name="language">Language</string>
+    <string name="spanish">Spanish</string>
+    <string name="population">Population</string>
+    <string name="millions">+20 millions</string>
+
+    <string name="basicinfo">Mexico’s capital is the oldest capital city in the Americas. The city was originally built on an island of Lake Texcoco by the Aztecs in 1325 as Tenochtitlan</string>
+
+    <string name="culturalfacts">Mexico City has the most museums in the world, with more than 160, almost all of which are free on Sundays. The city also has over 100 art galleries, and 30 concert halls.
+</string>
 </resources>
