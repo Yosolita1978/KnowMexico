@@ -2,16 +2,16 @@
     <string name="app_name">Know Mexico</string>
     <string name="city_name">Mexico City</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <!-- Temporal strings to view the fragments -->
     <string name="hello_city_fragment">Hello city fragment</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <!-- Temporal strings to view the fragments -->
     <string name="hello_do_fragment">Hello What To Do fragment</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <!-- Temporal strings to view the fragments -->
     <string name="hello_eat_fragment">Hello What To Eat fragment</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <!-- Temporal strings to view the fragments -->
     <string name="hello_drink_fragment">Hello What To Drink fragment</string>
 
     <string name="city">City</string>
@@ -26,5 +26,85 @@
     <string name="basicinfo">Mexico’s capital is the oldest capital city in the Americas. The city was originally built on an island of Lake Texcoco by the Aztecs in 1325 as Tenochtitlan</string>
 
     <string name="culturalfacts">Mexico City has the most museums in the world, with more than 160, almost all of which are free on Sundays. The city also has over 100 art galleries, and 30 concert halls.
-</string>
+    </string>
+
+    <!-- Place One -->
+    <string name="namePlaceOne">Chapultepec Castle</string>
+    <string name="shortdescPlaceOne">The palace built by Emperor Maximilian. Recommended because the view of the city is awesome</string>
+    <string name="longdescPlaceOne"> Chapultepec Castle is located in the middle of Chapultepec Park. The site of the hill was a sacred place for Aztecs, and the buildings atop it have served several purposes during its history, including that of Military Academy, Imperial residence, Presidential home, observatory, and presently, the National Museum of History. It is the only royal castle in the Americas.</string>
+    <string name="typePlaceOne">todo</string>
+    <string name="addresPlaceOne">Bosque de Chapultepec I Secc, 11100 Ciudad de México</string>
+    <string name="urlPlaceOne">http://www.castillodechapultepec.inah.gob.mx</string>
+
+    <!-- Place Two -->
+    <string name="namePlaceTwo">Palace of Fine Arts</string>
+    <string name="shortdescPlaceTwo">They usually have good exhibitions, but the point is admiring the mixed neoclassical/artdeco building and looking at the murals by the mexican masters.</string>
+    <string name="longdescPlaceTwo"> The Palacio de Bellas Artes (Palace of Fine Arts) is a prominent cultural center in Mexico City. It has hosted some of the most notable events in music, dance, theatre, opera and literature and has held important exhibitions of painting, sculpture, and photography. Consequently, the Palacio de Bellas Artes has been called the "Cathedral of Art in Mexico." The building is located on the western side of the historic center of Mexico City next to the Alameda Central park.</string>
+    <string name="typePlaceTwo">todo</string>
+    <string name="addresPlaceTwo">Av. Juárez, Centro Histórico, Centro, 06050 Ciudad de México</string>
+    <string name="urlPlaceTwo">http://www.palacio.bellasartes.gob.mx</string>
+
+    <!-- Place Three -->
+    <string name="namePlaceThree">The Angel of Independence</string>
+    <string name="shortdescPlaceThree">Tecnically a winged victory, and the indisputable symbol of the city.</string>
+    <string name="longdescPlaceThree">El Ángel was built in 1910 during the presidency of Porfirio Díaz by architect Antonio Rivas Mercado, to commemorate the centennial of the beginning of Mexico\'s War of Independence. In later years it was made into a mausoleum for the most important heroes of that war. It is one of the most recognizable landmarks in Mexico City, and it has become a focal point for both celebration or protest. It resembles the July Column in Paris and the Berlin Victory Column in Berlin.</string>
+    <string name="typePlaceThree">todo</string>
+    <string name="addresPlaceThree">Paseo de la Reforma y Eje 2 PTE, Juárez, Cuauhtémoc, 06500 Ciudad de México</string>
+    <string name="urlPlaceThree">https://es.wikipedia.org/wiki/Monumento_a_la_Independencia</string>
+
+    <!-- Place Four -->
+    <string name="namePlaceFour">Monument to the Revolution</string>
+    <string name="shortdescPlaceFour">It is a landmark and monument commemorating the Mexican Revolution.And, it has an elevator to the rooftop now, how cool is that!</string>
+    <string name="longdescPlaceFour">The Revolution Monument or Monumento a la Revolución is also known as the Arch of the Revolution. It is located on Plaza de la Republica between downtown Reforma and Insurgentes, and has long been a premier tourist attraction. Visitors can board a sleek glass panoramic elevator that shoots up, for 57 meters in a matter of seconds to arrive at an access deck inside the Monument\'s stone and copper dome.</string>
+    <string name="typePlaceFour">todo</string>
+    <string name="addresPlaceFour">Plaza de la República S/N, Tabacalera, Cuauhtémoc, 06030 Ciudad de México</string>
+    <string name="urlPlaceFour">http://www.mrm.mx/eng/</string>
+
+    <!-- Place Five -->
+    <string name="namePlaceFive">The National Museum of Anthropology</string>
+    <string name="shortdescPlaceFive">If you only go to one museum in Mexico City it has to be this. The architecture is beyond this world and the exhibits on pre-columbian cultures are unbelievable. It is huge, though, at least half a day.</string>
+    <string name="longdescPlaceFive">The National Museum of Anthropology (Spanish: Museo Nacional de Antropología, MNA) is a national museum of Mexico. It is the largest and most visited museum in Mexico. Located in the area between Paseo de la Reforma and Mahatma Gandhi Street within Chapultepec Park in Mexico City,[2] the museum contains significant archaeological and anthropological artifacts from Mexico\'s pre-Columbian heritage, such as the Stone of the Sun (or the Aztec calendar stone) and the Aztec Xochipilli statue.</string>
+    <string name="typePlaceFive">todo</string>
+    <string name="addresPlaceFive">Paseo de la Reforma and Calzada Gandhi S/N, Chapultepec Polanco, Miguel Hidalgo, 11560 Ciudad de México</string>
+    <string name="urlPlaceFive">http://www.mna.inah.gob.mx/</string>
+
+    <!-- Place Six -->
+    <string name="namePlaceSix">National Palace</string>
+    <string name="shortdescPlaceSix">The inside of the building is pretty cool, and you can admire several of  Diego Rivera murals.</string>
+    <string name="longdescPlaceSix">The National Palace (Spanish: Palacio Nacional) is the seat of the federal executive in Mexico. It is located on Mexico City\'s main square, the Plaza de la Constitución (El Zócalo). This site has been a palace for the ruling class of Mexico since the Aztec empire, and much of the current palace's building materials are from the original one that belonged to Moctezuma II.</string>
+    <string name="typePlaceSix">todo</string>
+    <string name="addresPlaceSix">Plaza de la Constitución S/N, Centro, Cuauhtémoc, 06066 Ciudad de México</string>
+    <string name="urlPlaceSix">https://www.lonelyplanet.com/mexico/mexico-city/attractions/palacio-nacional/a/poi-sig/1146705/361544</string>
+
+    <!-- Place Seven -->
+    <string name="namePlaceSeven">Metropolitan Cathedral</string>
+    <string name="shortdescPlaceSeven">The largest cathedral in the Americas is situated atop the former Aztec sacred precinct near the Templo Mayor on the northern side of the Plaza de la Constitución. </string>
+    <string name="longdescPlaceSeven"> The cathedral was built in sections from 1573 to 1813 around the original church that was constructed soon after the Spanish conquest of Tenochtitlan, eventually replacing it entirely. The cathedral has four façades which contain portals flanked with columns and statues. The two bell towers contain a total of 25 bells. The tabernacle, adjacent to the cathedral, contains the baptistery and serves to register the parishioners. There are two large, ornate altars, a sacristy, and a choir in the cathedral. Fourteen of the cathedral\'s sixteen chapels are open to the public. </string>
+    <string name="typePlaceSeven">todo</string>
+    <string name="addresPlaceSeven">Plaza de la Constitución S/N, Centro, Cuauhtémoc, 06000 Ciudad de México</string>
+    <string name="urlPlaceSeven">www.arquidiocesismexico.org.mx </string>
+
+    <!-- Place Eight -->
+    <string name="namePlaceEight">National Library José Vasconcelos</string>
+    <string name="shortdescPlaceEight">Inside the library there is the City of Books, which is a recreation of the personal libraries of several mexican writers. Truly one of a kind. </string>
+    <string name="longdescPlaceEight"> Mega library: built at the end of the eighteenth century, La Ciudadela in the heart of Mexico City houses the largest library in Latin America. The renovation in 2012 restored the building to its former splendour. The new Ciudad de los libros, city of books, embodies an innovative library concept: the architects devoted one room each to the personal book collections of Mexico\’s famous great writers.  </string>
+    <string name="typePlaceEight">todo</string>
+    <string name="addresPlaceEight">Tolsa 4, Centro, 06040 Cuauhtémoc</string>
+    <string name="urlPlaceEight">www.bibliotecademexico.gob.mx</string>
+
+    <!-- Place Nine -->
+    <string name="namePlaceNine">San Ildefonso College</string>
+    <string name="shortdescPlaceNine">San Ildefonso College currently is a museum and cultural center in Mexico City, considered to be the birthplace of the Mexican muralism movement. </string>
+    <string name="longdescPlaceNine">The complex is located between San Ildefonso Street and Justo Sierra Street in the historic center of Mexico City. The museum has permanent and temporary art and archeological exhibitions in addition to the many murals painted on its walls by José Clemente Orozco, Fernando Leal, Diego Rivera and others. The museum is also an active participant in the effort to revitalize the historic center of Mexico City, offering space for cultural and business events.</string>
+    <string name="typePlaceNine">todo</string>
+    <string name="addresPlaceNine">Justo Sierra 16, Centro Histórico, Centro, 06020 Ciudad de México</string>
+    <string name="urlPlaceNine">www.sanildefonso.org.mx</string>
+
+    <!-- Place Ten -->
+    <string name="namePlaceTen">Square of the Three Cultures</string>
+    <string name="shortdescPlaceTen">It is the Three Culture Square because there is an Aztec temple, a Catholic Church and a modern apartment complex. A must see. </string>
+    <string name="longdescPlaceTen"> The Plaza de las Tres Culturas ("Square of the Three Cultures") is the main square within the Tlatelolco neighborhood of Mexico City.  The former headquarters of the Secretariat of Foreign Affairs (foreign ministry) also stands on the southern edge of the square. This headquarters now houses a memorial museum called "Memorial 68", opened by UNAM in October 2007, to remember the 1968 Mexican student demonstrations and the Tlatelolco Massacre victims and survivors. The square contains the remains of Aztec temples and is flanked by the Catholic church of Santiago de Tlatelolco and by a massive housing complex built in 1964.</string>
+    <string name="typePlaceTen">todo</string>
+    <string name="addresPlaceTen">Lázaro Cárdenas, Tlatelolco, 06900 Ciudad de México</string>
+    <string name="urlPlaceTen">www.tlatelolco.inah.gob.mx</string>
 </resources>
