@@ -61,7 +61,7 @@
     <string name="urlPlaceFour">http://www.mrm.mx/eng/</string>
 
     <!-- Place Five -->
-    <string name="namePlaceFive">The National Museum of Anthropology</string>
+    <string name="namePlaceFive">Museum of Anthropology</string>
     <string name="shortdescPlaceFive">If you only go to one museum in Mexico City it has to be this. The architecture is beyond this world and the exhibits on pre-columbian cultures are unbelievable. It is huge, though, at least half a day.</string>
     <string name="longdescPlaceFive">The National Museum of Anthropology (Spanish: Museo Nacional de Antropología, MNA) is a national museum of Mexico. It is the largest and most visited museum in Mexico. Located in the area between Paseo de la Reforma and Mahatma Gandhi Street within Chapultepec Park in Mexico City,[2] the museum contains significant archaeological and anthropological artifacts from Mexico\'s pre-Columbian heritage, such as the Stone of the Sun (or the Aztec calendar stone) and the Aztec Xochipilli statue.</string>
     <string name="typePlaceFive">todo</string>
@@ -85,7 +85,7 @@
     <string name="urlPlaceSeven">www.arquidiocesismexico.org.mx </string>
 
     <!-- Place Eight -->
-    <string name="namePlaceEight">National Library José Vasconcelos</string>
+    <string name="namePlaceEight">National Library City of Books</string>
     <string name="shortdescPlaceEight">Inside the library there is the City of Books, which is a recreation of the personal libraries of several mexican writers. Truly one of a kind. </string>
     <string name="longdescPlaceEight"> Mega library: built at the end of the eighteenth century, La Ciudadela in the heart of Mexico City houses the largest library in Latin America. The renovation in 2012 restored the building to its former splendour. The new Ciudad de los libros, city of books, embodies an innovative library concept: the architects devoted one room each to the personal book collections of Mexico\’s famous great writers.  </string>
     <string name="typePlaceEight">todo</string>
@@ -93,7 +93,7 @@
     <string name="urlPlaceEight">www.bibliotecademexico.gob.mx</string>
 
     <!-- Place Nine -->
-    <string name="namePlaceNine">San Ildefonso College</string>
+    <string name="namePlaceNine">San Idelfonso College</string>
     <string name="shortdescPlaceNine">San Ildefonso College currently is a museum and cultural center in Mexico City, considered to be the birthplace of the Mexican muralism movement. </string>
     <string name="longdescPlaceNine">The complex is located between San Ildefonso Street and Justo Sierra Street in the historic center of Mexico City. The museum has permanent and temporary art and archeological exhibitions in addition to the many murals painted on its walls by José Clemente Orozco, Fernando Leal, Diego Rivera and others. The museum is also an active participant in the effort to revitalize the historic center of Mexico City, offering space for cultural and business events.</string>
     <string name="typePlaceNine">todo</string>
