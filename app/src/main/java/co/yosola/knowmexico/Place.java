@@ -28,43 +28,70 @@ public class Place {
         mPlaceType = placeType;
     }
 
-
     // The construtor of the Place Object
 
-    public Place(String placeName, String placeshortDescription, String placeLongDescription, String placeType, String placeAddress, String placeUrl, Drawable imagePlace) {
+    public Place(String placeName, String placeshortDescription, Drawable imagePlace, String placeType,  String longPlaceDescription, String placeAddress, String placeUrl) {
         mPlaceName = placeName;
         mPlaceShortDescription = placeshortDescription;
-        mPlaceLongDescription = placeLongDescription;
+        mPlaceLongDescription = longPlaceDescription;
         mPlaceType = placeType;
         mPlaceAddress = placeAddress;
         mPlaceUrl = placeUrl;
         mImageResource = imagePlace;
     }
 
+    /**
+     * Getter method for Place Name
+     * @return placeName
+     */
     public String getPlaceName(){
         return mPlaceName;
     }
 
+    /**
+     * Getter method for Place Short Description
+     * @return placeShortDescription
+     */
     public String getPlaceShortDescription(){
         return mPlaceShortDescription;
     }
 
+    /**
+     * Getter method for Place Long Description
+     * @return placeLongDescription
+     */
     public String getPlaceLongDescription(){
         return mPlaceLongDescription;
     }
 
+    /**
+     * Getter method for Place Type
+     * @return placeType
+     */
     public String getPlaceType(){
         return mPlaceType;
     }
 
+    /**
+     * Getter method for Place Address
+     * @return placeAddress
+     */
     public String getPlaceAddress(){
         return mPlaceAddress;
     }
 
+    /**
+     * Getter method for Place url
+     * @return placeurl
+     */
     public String getPlaceUrl(){
         return mPlaceUrl;
     }
 
+    /**
+     * Getter method for Place Image
+     * @return placeImg Drawable
+     */
     public Drawable getImageResource() {
         return mImageResource;
     }

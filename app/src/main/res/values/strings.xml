@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Know Mexico</string>
     <string name="city_name">Mexico City</string>
+    <string name="start">Start your Visit</string>
 
     <!-- Temporal strings to view the fragments -->
     <string name="hello_city_fragment">Hello city fragment</string>
@@ -85,11 +86,11 @@
     <string name="urlPlaceSeven">www.arquidiocesismexico.org.mx </string>
 
     <!-- Place Eight -->
-    <string name="namePlaceEight">National Library City of Books</string>
+    <string name="namePlaceEight">Library "José Vasconcelos"</string>
     <string name="shortdescPlaceEight">Inside the library there is the City of Books, which is a recreation of the personal libraries of several mexican writers. Truly one of a kind. </string>
     <string name="longdescPlaceEight"> Mega library: built at the end of the eighteenth century, La Ciudadela in the heart of Mexico City houses the largest library in Latin America. The renovation in 2012 restored the building to its former splendour. The new Ciudad de los libros, city of books, embodies an innovative library concept: the architects devoted one room each to the personal book collections of Mexico\’s famous great writers.  </string>
     <string name="typePlaceEight">todo</string>
-    <string name="addresPlaceEight">Tolsa 4, Centro, 06040 Cuauhtémoc</string>
+    <string name="addresPlaceEight">Biblioteca de México José Vasconcelos</string>
     <string name="urlPlaceEight">www.bibliotecademexico.gob.mx</string>
 
     <!-- Place Nine -->

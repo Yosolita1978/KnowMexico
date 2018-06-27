@@ -1,11 +1,13 @@
 package co.yosola.knowmexico;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -30,14 +32,31 @@ public class DrinkFragment extends Fragment {
 
         //Start the allPlaces instance
         AllPlacesList placesofMexico = AllPlacesList.getAllPlaces(getContext());
+
+        //Start the to-drink Array
         ArrayList<Place> todrinkPlaces = new ArrayList<Place>();
         todrinkPlaces = placesofMexico.getAllToDrinkPlaces();
 
+        //Start the Placeadapter and the ListView
         PlaceAdapter todoAdapter = new PlaceAdapter(getContext(), todrinkPlaces);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+                //Using bundle to send two extras with the intent
+                Intent intent = new Intent(getActivity(), SinglePlaceActivity.class);
+                Bundle extras = new Bundle();
+                extras.putInt("indexPlaceSelected", position);
+                extras.putString("TypePlaceSelected", "todrink");
+                intent.putExtras(extras);
+                startActivity(intent);
+            }
+        });
+
         listView.setAdapter(todoAdapter);
 
-        return  rootView;
+        return rootView;
     }
 
 }
