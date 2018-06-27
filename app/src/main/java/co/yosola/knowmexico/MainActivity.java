@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent tourIntent = new Intent(MainActivity.this, TourActivity.class);
+                Intent tourIntent = new Intent(getApplicationContext(), TourActivity.class);
                 startActivity(tourIntent);
 
                 //Finish View once the Question is called.

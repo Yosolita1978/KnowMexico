@@ -10,11 +10,9 @@ public class TourActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        String City = "Mexico City";
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tour);
-
 
         // Find the view pager that will allow the user to swipe between fragments
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);

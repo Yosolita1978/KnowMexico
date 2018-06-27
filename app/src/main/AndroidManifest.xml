@@ -19,8 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".TourActivity"
-            android:label="@string/city_name"
-            android:parentActivityName=".MainActivity"/>
+            android:label="@string/city_name" />
     </application>
 
 </manifest>

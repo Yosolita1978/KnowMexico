@@ -3,6 +3,7 @@ package co.yosola.knowmexico;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -30,21 +31,9 @@ public class DoFragment extends Fragment {
 
         //Start the allPlaces instance
         AllPlacesList placesofMexico = AllPlacesList.getAllPlaces(getContext());
-
-        //Set all the to-do places in the ArrayList
         ArrayList<Place> todoPlaces = new ArrayList<Place>();
-
-        todoPlaces.add(placesofMexico.getPlacebyIndex(0));
-        todoPlaces.add(placesofMexico.getPlacebyIndex(1));
-        todoPlaces.add(placesofMexico.getPlacebyIndex(2));
-        todoPlaces.add(placesofMexico.getPlacebyIndex(3));
-        todoPlaces.add(placesofMexico.getPlacebyIndex(4));
-        todoPlaces.add(placesofMexico.getPlacebyIndex(5));
-        todoPlaces.add(placesofMexico.getPlacebyIndex(6));
-        todoPlaces.add(placesofMexico.getPlacebyIndex(7));
-        todoPlaces.add(placesofMexico.getPlacebyIndex(8));
-        todoPlaces.add(placesofMexico.getPlacebyIndex(9));
-
+        todoPlaces = placesofMexico.getAllToDoPlaces();
+        
         PlaceAdapter todoAdapter = new PlaceAdapter(getContext(), todoPlaces);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(todoAdapter);

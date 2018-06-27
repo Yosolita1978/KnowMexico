@@ -39,7 +39,7 @@ public class PlaceAdapter extends ArrayAdapter {
 
         // Find the ImageView in the list_item.xml layout with the ID image.
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.place_image);
-        // Set the ImageView to the image resource specified in the current Word
+        // Set the ImageView to the image resource specified in the current Place
         imageView.setImageDrawable(currentPlace.getImageResource());
 
         return listItemView;

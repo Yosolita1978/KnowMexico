@@ -21,10 +21,11 @@ public class Place {
 
     // A short construtor of the Place Object for the list
 
-    public Place(String placeName, String shortDescription, Drawable placeImage){
+    public Place(String placeName, String shortDescription, Drawable placeImage, String placeType){
         mPlaceName = placeName;
         mPlaceShortDescription = shortDescription;
         mImageResource = placeImage;
+        mPlaceType = placeType;
     }
 
 
