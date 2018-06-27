@@ -12,7 +12,7 @@ public class AllPlacesList {
     private int mCurrentPlaceIndex = 0;
 
     private AllPlacesList(Context context) {
-        mPlaces = new Place[20];
+        mPlaces = new Place[27];
 
         String placeOneName = context.getResources().getString(R.string.namePlaceOne);
         String placeShortDescOne = context.getResources().getString(R.string.shortdescPlaceOne);
@@ -173,6 +173,62 @@ public class AllPlacesList {
 
         Place place20 = new Place(place20Name, placeShortDesc20, place20Img, place20type);
         mPlaces[19] = place20;
+
+        String place21Name = context.getResources().getString(R.string.namePlace21);
+        String placeShortDesc21 = context.getResources().getString(R.string.shortdesc21);
+        Drawable place21Img = context.getResources().getDrawable(R.drawable.tenampa);
+        String place21type = context.getResources().getString(R.string.typePlace21);
+
+        Place place21 = new Place(place21Name, placeShortDesc21, place21Img, place21type);
+        mPlaces[20] = place21;
+
+        String place22Name = context.getResources().getString(R.string.namePlace22);
+        String placeShortDesc22 = context.getResources().getString(R.string.shortdesc22);
+        Drawable place22Img = context.getResources().getDrawable(R.drawable.riviera);
+        String place22type = context.getResources().getString(R.string.typePlace22);
+
+        Place place22 = new Place(place22Name, placeShortDesc22, place22Img, place22type);
+        mPlaces[21] = place22;
+
+        String place23Name = context.getResources().getString(R.string.namePlace23);
+        String placeShortDesc23 = context.getResources().getString(R.string.shortdesc23);
+        Drawable place23Img = context.getResources().getDrawable(R.drawable.barmilan);
+        String place23type = context.getResources().getString(R.string.typePlace23);
+
+        Place place23 = new Place(place23Name, placeShortDesc23, place23Img, place23type);
+        mPlaces[22] = place23;
+
+        String place24Name = context.getResources().getString(R.string.namePlace24);
+        String placeShortDesc24 = context.getResources().getString(R.string.shortdesc24);
+        Drawable place24Img = context.getResources().getDrawable(R.drawable.coyoacana);
+        String place24type = context.getResources().getString(R.string.typePlace24);
+
+        Place place24 = new Place(place24Name, placeShortDesc24, place24Img, place24type);
+        mPlaces[23] = place24;
+
+        String place25Name = context.getResources().getString(R.string.namePlace25);
+        String placeShortDesc25 = context.getResources().getString(R.string.shortdesc25);
+        Drawable place25Img = context.getResources().getDrawable(R.drawable.tapanegra);
+        String place25type = context.getResources().getString(R.string.typePlace25);
+
+        Place place25 = new Place(place25Name, placeShortDesc25, place25Img, place25type);
+        mPlaces[24] = place25;
+
+        String place26Name = context.getResources().getString(R.string.namePlace26);
+        String placeShortDesc26 = context.getResources().getString(R.string.shortdesc26);
+        Drawable place26Img = context.getResources().getDrawable(R.drawable.covadonga);
+        String place26type = context.getResources().getString(R.string.typePlace26);
+
+        Place place26 = new Place(place26Name, placeShortDesc26, place26Img, place26type);
+        mPlaces[25] = place26;
+
+        String place27Name = context.getResources().getString(R.string.namePlace27);
+        String placeShortDesc27 = context.getResources().getString(R.string.shortdesc27);
+        Drawable place27Img = context.getResources().getDrawable(R.drawable.leonoro);
+        String place27type = context.getResources().getString(R.string.typePlace27);
+
+        Place place27 = new Place(place27Name, placeShortDesc27, place27Img, place27type);
+        mPlaces[26] = place27;
     }
 
     public static AllPlacesList getAllPlaces(Context context) {
@@ -200,6 +256,16 @@ public class AllPlacesList {
             }
         }
         return  toeatPlaces;
+    }
+
+    public ArrayList<Place> getAllToDrinkPlaces(){
+        ArrayList<Place> todrinkPlaces = new ArrayList<>();
+        for(int i = 0; i < mPlaces.length; i++){
+            if(mPlaces[i].getPlaceType().equals("todrink")){
+                todrinkPlaces.add(allPlaces.getPlacebyIndex(i));
+            }
+        }
+        return  todrinkPlaces;
     }
 
     public Place getNextPlace() {

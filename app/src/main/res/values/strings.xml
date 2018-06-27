@@ -187,4 +187,61 @@
     <string name="typePlaceTwenty">toeat</string>
     <string name="addresPlaceTwenty">Calle Río Lerma 86, Cuauhtémoc, 06500 Ciudad de México</string>
     <string name="urlPlaceTwenty">www.labellalula.com.mx</string>
+
+    <!-- Place TwentyOne -->
+    <string name="namePlace21">Salón Tenampa</string>
+    <string name="shortdesc21">The mother of all Cantinas, it is a great place to drink tequila and listen to Mariachi music.</string>
+    <string name="longdesc21">Juan Indalecio Hernández Ibarra founded the Salón Tenampa in 1925. Visiting the Salon Tenampa is like visiting where a lot of the mariachi songs were written or served as inspiration. Loud, busy and hectic is part of the folklore. It might feel kitschy and touristy because of all the cheesy decor, but this is also the real deal.</string>
+    <string name="typePlace21">todrink</string>
+    <string name="addresPlace21">Plaza Garibaldi 12, Centro, 06010 Centro, CDMX, Mexico</string>
+    <string name="urlPlace21">http://www.salontenampa.com/</string>
+
+    <!-- Place TwentyTwo -->
+    <string name="namePlace22">Riviera del Sur</string>
+    <string name="shortdesc22">A modern take on cantinas, but with an old school feel. They also serve amazing Yucatan food.</string>
+    <string name="longdesc22">This is one of the great places to hang out. Used to be a run-down cantina, now taken over by the crew who run ever-popular Pata Negra. Tables spilling onto the pavement, a wonderful long bar, and great food. The plantain fritters are to die for!</string>
+    <string name="typePlace22">todrink</string>
+    <string name="addresPlace22">Calle de Chiapas 174, Roma Nte., 06700 Ciudad de México</string>
+    <string name="urlPlace22">https://www.facebook.com/CantinaRiviera</string>
+
+    <!-- Place TwentyThree -->
+    <string name="namePlace23">Bar Milán</string>
+    <string name="shortdesc23">A classic of classics bar, all sorts of people end up here and it is a lot of fun. Best mojitos in the City!</string>
+    <string name="longdesc23">Bar Milán is an eclectic place in atmosphere, décor, and crowd. Music is a mishmash of 90s Rock, Pop, Latin Pop. A DJ is spinning the songs with a small dance floor. Paying for your drinks involves trading pesos for Bar Milán money at the back of the bar, then ordering drinks.</string>
+    <string name="typePlace23">todrink</string>
+    <string name="addresPlace23">Calle Milan 18, Juárez, 06600 Ciudad de México</string>
+    <string name="urlPlace23">www.barmilan.com.mx</string>
+
+    <!-- Place TwentyFour -->
+    <string name="namePlace24">Cantina La Coyoacana</string>
+    <string name="shortdesc24">This is an excellent place for Mariachi music and Mexican food. Everyone comes here for a good time.</string>
+    <string name="longdesc24">The location could not be better; it\'s right behind the church in central Coyoacan. Come here for the covered patio. The fresh air, mariachis, and general atmosphere of the room is like an ongoing party you never want to leave! The food portions are giant! The drinks are strong and cheap and the price is modest.</string>
+    <string name="typePlace24">todrink</string>
+    <string name="addresPlace24">Higuera 14, La Concepción, 04000 Coyoacán</string>
+    <string name="urlPlace24">lacoyoacana.com</string>
+
+    <!-- Place TwentyFive -->
+    <string name="namePlace25">Pata Negra</string>
+    <string name="shortdesc25">Good for creative cocktails and a late night snack</string>
+    <string name="longdesc25">Pata Negra had become something of a classic place to go at night for drinks. Great drinks, good music, and good people. This bar had an excellent selection of mezcal. The owner is around and friendly and the wait staff lively and attentive. Good eating and good drinks, reasonable price, right next to the Zocalo.</string>
+    <string name="typePlace25">todrink</string>
+    <string name="addresPlace25">Av. 5 de Mayo 49, Centro Histórico, Centro, 06000 Ciudad de México</string>
+    <string name="urlPlace25">https://www.facebook.com/BarPataNegraMX/</string>
+
+    <!-- Place TwentySix -->
+    <string name="namePlace26">El Covadonga</string>
+    <string name="shortdesc26">The place to have a drink, have a Spanish tortilla and hang out with friends.</string>
+    <string name="longdesc26">The huge and rather elegant Covadonga is one of the few cantinas that has successfully turned traditional into trendy. The décor hasn´t changed that much, retaining the antique bar and square wooden tables that can easily be moved around to accommodate large groups, but the clientele has transformed from domino-playing regulars to the young on a retro night out</string>
+    <string name="typePlace26">todrink</string>
+    <string name="addresPlace26">Puebla 121, Roma Nte., 06700 Ciudad de México, CDMX, México</string>
+    <string name="urlPlace26">http://www.banquetescovadonga.com.mx/</string>
+
+    <!-- Place TwentySeven -->
+    <string name="namePlace27">Cantina El León de Oro</string>
+    <string name="shortdesc27">A mid-sized cantina in a residential area with a relaxed atmosphere</string>
+    <string name="longdesc27">Geometric stained glass windows in shades of gold and brown and golden domes add a touch of 60s and 70s kitsch to the interior. Locals swear by the tastiness of the lengua a la veracruzana (tongue with olives and tomatoes) and the quality of the tortillas.</string>
+    <string name="typePlace27">todrink</string>
+    <string name="addresPlace27">Av. José Martí 103-A, Escandón I Secc, 11800 Ciudad de México, CDMX, México</string>
+    <string name="urlPlace27">https://www.cantinaelleondeoro.com.mx/</string>
+
 </resources>
