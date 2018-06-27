@@ -33,7 +33,7 @@ public class DoFragment extends Fragment {
         AllPlacesList placesofMexico = AllPlacesList.getAllPlaces(getContext());
         ArrayList<Place> todoPlaces = new ArrayList<Place>();
         todoPlaces = placesofMexico.getAllToDoPlaces();
-        
+
         PlaceAdapter todoAdapter = new PlaceAdapter(getContext(), todoPlaces);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(todoAdapter);

@@ -107,4 +107,84 @@
     <string name="typePlaceTen">todo</string>
     <string name="addresPlaceTen">Lázaro Cárdenas, Tlatelolco, 06900 Ciudad de México</string>
     <string name="urlPlaceTen">www.tlatelolco.inah.gob.mx</string>
+
+    <!-- Place Eleven -->
+    <string name="namePlaceEleven">La Casa de las Enchiladas</string>
+    <string name="shortdescPlaceEleven">Make your own enchilada place. Really good.</string>
+    <string name="longdescPlaceEleven">Great build-your-own enchiladas combining a choice of tortilla, filling, salsa and toppings (over 200 combinations).  Fast service and excellent value. </string>
+    <string name="typePlaceEleven">toeat</string>
+    <string name="addresPlaceEleven">Calle Río Lerma 257, Condesa, 06140 Ciudad de México</string>
+    <string name="urlPlaceEleven">http://www.lacasadelasenchiladas.com/</string>
+
+    <!-- Place Twelve -->
+    <string name="namePlaceTwelve">Hostal de Los Quesos</string>
+    <string name="shortdescPlaceTwelve">Really good tacos, specially "campechanos" (chicharron, chorizo and beef).</string>
+    <string name="longdescPlaceTwelve">This place has been there for over 40 years and the quality hasn\'t diminish a bit. </string>
+    <string name="typePlaceTwelve">toeat</string>
+    <string name="addresPlaceTwelve">Pilares 205, Col del Valle Centro, 03100 Ciudad de México</string>
+    <string name="urlPlaceTwelve">http://www.hostaldelosquesos.com.mx</string>
+
+    <!-- Place Thirteen -->
+    <string name="namePlaceThirteen">La Casa del Pastor</string>
+    <string name="shortdescPlaceThirteen">Really good tacos, specially "al pastor". You can\'t go to Mexico City and don\'t eat Tacos Al Pastor, it is illegal.</string>
+    <string name="longdescPlaceThirteen">This is a very legit taqueria in the middle of Polanco. The tacos al pastor are outstanding. This is definitely a must when in Polanco. The pastor meat is very well marinated and held up in a huge trompo</string>
+    <string name="typePlaceThirteen">toeat</string>
+    <string name="addresPlaceThirteen">Alfredo de Musset 3, Polanco III Sección, 11550 Miguel Hidalgo</string>
+    <string name="urlPlaceThirteen">http://www.lacasadelpastor.com.mx/</string>
+
+    <!-- Place Fourteen -->
+    <string name="namePlaceFourteen">La Poblanita de Tacubaya</string>
+    <string name="shortdescPlaceFourteen">Awesome quaint little restaurant, very traditional food, very affordable</string>
+    <string name="longdescPlaceFourteen">Very varied mexican food. The roasted cheese is amazing (and veggie friendly, unless you don\'t eat cheese), and the mole is pretty good too.</string>
+    <string name="typePlaceFourteen">toeat</string>
+    <string name="addresPlaceFourteen">Gobernador Luis G. Vieyra 12, San Miguel Chapultepec I Secc, 11850 Miguel Hidalgo</string>
+    <string name="urlPlaceFourteen">www.lapoblanita.com.mx</string>
+
+    <!-- Place Fifteen -->
+    <string name="namePlaceFifteen">Casa de los Azulejos</string>
+    <string name="shortdescFifteen">This beautiful 16th-century house is covered with tiles, a symbol of success in the colonial era</string>
+    <string name="longdescFifteen">This building is good for photographs from the outside. Inside it has a famous department store called "Sanborns". It has a nice restaurant. Nothing with a wow factor, but has good prices and good portions.</string>
+    <string name="typePlaceFifteen">toeat</string>
+    <string name="addresPlaceFifteen">Av Francisco I. Madero 4, Centro, 06500 Ciudad de México</string>
+    <string name="urlPlaceFifteen">https://es.wikipedia.org/wiki/Casa_de_los_Azulejos</string>
+
+    <!-- Place Sixteen -->
+    <string name="namePlaceSixteen">Alipús Condesa</string>
+    <string name="shortdescSixteen">Organic(ish) mexican food, very well done. They sell mezcal (tequila\'s good cousin) from special Agave plants </string>
+    <string name="longdescSixteen">The place offers a selected inventory of Southern specialties such as Tlayudas and Mole Negro which were really good. The restaurant in itself is a little odd regarding their facilities and is not as fancy as other restaurants in the area, but what it lacks in charm is compensated by great flavors and fantastic service. You have to test the guacamole with toasted chili grasshoppers.</string>
+    <string name="typePlaceSixteen">toeat</string>
+    <string name="addresPlaceSixteen">Aguascalientes 232, Hipódromo, 06100 Ciudad de México</string>
+    <string name="urlPlaceSixteen">www.alipus.com</string>
+
+    <!-- Place Seventeen -->
+    <string name="namePlaceSeventeen">Pujol</string>
+    <string name="shortdescSeventeen">One of two mexican restaurants in the world top 50. Only by reservations</string>
+    <string name="longdescSeventeen"> Awesome food. Lots of perfectly paired alcohol with the tasting menu. Tacos you\’ll never get anywhere else. An absolute must do if budget allows.If you call ahead (English spoken) they can accommodate vegetarians.</string>
+    <string name="typePlaceSeventeen">toeat</string>
+    <string name="addresPlaceSeventeen">Tennyson 133, Polanco, Polanco IV Secc, 11570 Ciudad de México</string>
+    <string name="urlPlaceSeventeen">pujol.com.mx</string>
+
+    <!-- Place Eighteen -->
+    <string name="namePlaceEighteen">Restaurante Gotan</string>
+    <string name="shortdescEighteen">Absolutely amazing Argentinian restaurant.</string>
+    <string name="longdescEighteen">Top quality meat, excellent Argentinian empanadas, just as in Buenos Aires, good Italian deserts (torta di nonna is justly famed) and very good service.</string>
+    <string name="typePlaceEighteen">toeat</string>
+    <string name="addresPlaceEighteen">Pedro Baranda 17, Tabacalera, 06030 Cuauhtémoc</string>
+    <string name="urlPlaceEighteen">www.gotan.com.mx</string>
+
+    <!-- Place Nineteen -->
+    <string name="namePlaceNineteen">Cabrera 7</string>
+    <string name="shortdescNineteen">The restaurant is pretty cute, overlooking a beautiful garden.</string>
+    <string name="longdescNineteen">Good atmosphere dining outside on a warm night across from a park. Nice choice of Mexican food and mezcal both of which were delicious.</string>
+    <string name="typePlaceNineteen">toeat</string>
+    <string name="addresPlaceNineteen">Plaza Luis Cabrera 7, Roma Norte, Roma Nte., 06700 Ciudad de México</string>
+    <string name="urlPlaceNineteen">https://www.facebook.com/cabrera7</string>
+
+    <!-- Place Twenty -->
+    <string name="namePlaceTwenty">La Bella Lula</string>
+    <string name="shortdescTwenty">Decent size menu, with lots of options for food from the Oaxaca region.</string>
+    <string name="longdescTwenty">A great option in the city to eat authentic Oaxacan food. Be adventurous and try the chapulines (crickets).  You can order different types of Tlayuda\'s and traditional soups from Oaxaca. Don't miss the cheese. </string>
+    <string name="typePlaceTwenty">toeat</string>
+    <string name="addresPlaceTwenty">Calle Río Lerma 86, Cuauhtémoc, 06500 Ciudad de México</string>
+    <string name="urlPlaceTwenty">www.labellalula.com.mx</string>
 </resources>

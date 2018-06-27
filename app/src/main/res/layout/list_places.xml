@@ -19,7 +19,8 @@
             android:paddingBottom="10dp"
             android:paddingRight="10dp"
             android:paddingEnd="10dp"
-            tools:src="@drawable/ic_satellite_24dp"/>
+            tools:src="@drawable/ic_satellite_24dp"
+            android:scaleType="centerCrop"/>
 
         <LinearLayout
             android:orientation="vertical"
@@ -36,7 +37,11 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textAppearance="?android:textAppearanceMedium"
                 android:textStyle="bold"
-                android:textSize="19sp"/>
+                android:textSize="19sp"
+                android:paddingLeft="8dp"
+                android:paddingStart="8dp"
+                android:paddingRight="8dp"
+                android:paddingEnd="8dp"/>
 
             <TextView
                 android:layout_weight="0"
@@ -45,7 +50,11 @@
                 android:layout_height="65dp"
                 tools:text="@string/shortdescPlaceOne"
                 android:textSize="13sp"
-                android:textAppearance="?android:textAppearanceSmall"/>
+                android:textAppearance="?android:textAppearanceSmall"
+                android:paddingLeft="8dp"
+                android:paddingStart="8dp"
+                android:paddingRight="8dp"
+                android:paddingEnd="8dp"/>
 
         </LinearLayout>
 
