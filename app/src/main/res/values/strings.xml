@@ -23,6 +23,14 @@
     <string name="spanish">Spanish</string>
     <string name="population">Population</string>
     <string name="millions">+20 millions</string>
+    <string name="google">Google Maps</string>
+    <string name="url">Go URL</string>
+    <string name="weather">Weather</string>
+    <string name="desc">Description</string>
+    <string name="currentdesc">Thunderstorm</string>
+    <string name="current">Current</string>
+    <string name="currenttemp">18c</string>
+    <string name="about">About the City</string>
 
     <string name="basicinfo">Mexico’s capital is the oldest capital city in the Americas. The city was originally built on an island of Lake Texcoco by the Aztecs in 1325 as Tenochtitlan</string>
 

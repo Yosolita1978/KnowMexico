@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,96 +7,91 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         tools:context=".SinglePlaceActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:background="@drawable/placegradient">
-
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="230dp">
+            android:layout_height="@dimen/relative_layout_height"
+            android:background="@drawable/placegradient">
 
             <ImageView
                 android:id="@+id/single_place_img"
                 android:layout_width="match_parent"
-                android:layout_height="170dp"
-                tools:src="@drawable/cathedral"
+                android:layout_height="@dimen/imag_layout_height"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                android:padding="@dimen/dimen_6dp"
                 android:scaleType="centerCrop"
-                android:padding="6dp"
-                android:layout_marginTop="16dp"/>
+                tools:src="@drawable/cathedral" />
 
             <android.support.v7.widget.CardView
-                android:layout_width="380dp"
+                android:layout_width="@dimen/card_layout_height"
                 android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
                 android:layout_below="@+id/single_place_img"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp">
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:layout_marginTop="@dimen/dimen_8dp">
 
                 <TextView
                     android:id="@+id/single_place_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="@string/namePlaceSeven"
-                    android:textStyle="normal"
-                    android:textSize="20sp"
                     android:textColor="@color/colorAccentDark"
-                    />
+                    android:textSize="@dimen/font_large"
+                    android:textStyle="normal"
+                    tools:text="@string/namePlaceSeven" />
 
             </android.support.v7.widget.CardView>
 
         </RelativeLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/single_place_desc"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:text="@string/longdescPlaceSeven"
-            android:textColor="@color/black_backgrund"
-            android:padding="20dp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textSize="18sp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:weightSum="2"
-            android:padding="16dp">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-            <Button
-                android:id="@+id/single_place_google"
-                android:layout_width="75dp"
+            <TextView
+                android:id="@+id/single_place_desc"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@drawable/buttongradientbckgroud"
-                android:text="Google Maps"
-                android:layout_marginRight="8dp"/>
+                android:padding="@dimen/dimen_20dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black_backgrund"
+                android:textSize="@dimen/font_description"
+                tools:text="@string/longdescPlaceSeven" />
 
-            <Button
-                android:id="@+id/single_place_url"
-                android:layout_width="75dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@drawable/buttongradientbckgroud"
-                android:text="Go URL"
-                android:layout_marginLeft="8dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen_16dp"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/single_place_google"
+                    android:layout_width="@dimen/button_layout_height"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dimen_8dp"
+                    android:layout_marginRight="@dimen/dimen_8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttongradientbckgroud"
+                    android:text="@string/google" />
+
+                <Button
+                    android:id="@+id/single_place_url"
+                    android:layout_width="@dimen/button_layout_height"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_8dp"
+                    android:layout_marginStart="@dimen/dimen_8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttongradientbckgroud"
+                    android:text="@string/url"/>
+
+            </LinearLayout>
 
         </LinearLayout>
-
-    </LinearLayout>
 
     </LinearLayout>
 

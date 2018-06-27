@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/backgroundtour">
+    android:background="@drawable/backgroundtour"
+    tools:context=".MainActivity">
 
     <Button
         android:id="@+id/button_start"
         style="@style/Widget.AppCompat.ImageButton"
-        android:layout_width="220dp"
+        android:layout_width="@dimen/button_main_width"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="214dp"
+        android:layout_marginBottom="@dimen/button_marginBottom"
         android:background="@drawable/buttonstyle"
         android:textAllCaps="true"
         android:textColor="@android:color/white"
-        android:textSize="16sp"
+        android:textSize="@dimen/font_medium"
         android:textStyle="bold"
         tools:text="Start your Visit" />
-
-
 
 </RelativeLayout>
