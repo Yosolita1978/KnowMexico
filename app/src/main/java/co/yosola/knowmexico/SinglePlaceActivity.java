@@ -6,6 +6,7 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -29,13 +30,14 @@ public class SinglePlaceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_single_place);
 
-        //Grab the position of the current place with the intent
+
+        //Grab the position and the type of the current place with the intent
         Intent intent = getIntent();
         Bundle extras = intent.getExtras();
         int value = extras.getInt("indexPlaceSelected");
         String typePlaces = extras.getString("TypePlaceSelected");
 
-
+        //Grab the correct Array of places according with the type of the places
         ArrayList<Place> placesbyType = new ArrayList<Place>();
         if(typePlaces.equals("todo")){
             placesbyType = allplacesofMexico.getAllToDoPlaces();
@@ -51,6 +53,7 @@ public class SinglePlaceActivity extends AppCompatActivity {
         //Change the tittle in the ActionBar for navigation
         String namelayout = currentPlace.getPlaceName();
         getSupportActionBar().setTitle(namelayout);
+        getSupportActionBar().setLogo(R.drawable.knowmexico);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         //SetUp the name of the current Place
@@ -93,8 +96,14 @@ public class SinglePlaceActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
 
-
+    // Inflate the menu for the icon in the Action Bar
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_know, menu);
+        return true;
     }
 
 }

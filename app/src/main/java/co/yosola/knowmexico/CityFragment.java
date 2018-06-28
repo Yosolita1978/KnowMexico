@@ -4,6 +4,8 @@ package co.yosola.knowmexico;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -27,7 +29,7 @@ import org.json.JSONObject;
  */
 public class CityFragment extends Fragment {
 
-    // Initiating the TextView and the ImageView of the fragmente
+    // Initiating the TextView and the ImageView of the fragment
     TextView currentTemp, currentCondition;
     ImageView icon_weather;
 
@@ -41,6 +43,8 @@ public class CityFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View cityView = inflater.inflate(R.layout.fragment_city, container, false);
+        // Inflate the menu for the icon of the fragment
+        setHasOptionsMenu(true);
 
         // Finding the views in the current fragment
         currentTemp = cityView.findViewById(R.id.current_temperature);
@@ -54,6 +58,12 @@ public class CityFragment extends Fragment {
 
         return cityView;
 
+    }
+
+    // Create and connect the menu.xml file with the menu in the Tablayout of the fragment
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        inflater.inflate(R.menu.menu_city, menu);
     }
 
     // Helper fuction to call the OpenWeather API with the help of Volley

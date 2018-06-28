@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -29,6 +31,8 @@ public class EatFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_do, container, false);
+        // Inflate the menu for the icon of the fragment
+        setHasOptionsMenu(true);
 
         //Start the allPlaces instance
         AllPlacesList placesofMexico = AllPlacesList.getAllPlaces(getContext());
@@ -57,5 +61,11 @@ public class EatFragment extends Fragment {
         listView.setAdapter(todoAdapter);
 
         return rootView;
+    }
+
+    // Create and connect the menu.xml file with the menu in the Tablayout of the fragment
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        inflater.inflate(R.menu.menu_toeat, menu);
     }
 }
