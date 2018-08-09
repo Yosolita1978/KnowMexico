@@ -1,200 +1,205 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CityFragment">
 
-    <ImageView
-        android:id="@+id/franjacdmx"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/franjacdmx" />
+        android:layout_height="wrap_content">
 
-    <android.support.v7.widget.CardView
-        android:id="@+id/basic_info"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/cardview_layout_height"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/cardview_layout_marginTop">
-
-        <LinearLayout
+        <ImageView
+            android:id="@+id/franjacdmx"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:baselineAligned="false"
-            android:orientation="horizontal"
-            android:weightSum="2">
+            android:layout_height="wrap_content"
+            android:background="@drawable/franjacdmx" />
 
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/language"
-                    android:textSize="@dimen/font_medium" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="@dimen/dimen_10dp"
-                    android:text="@string/spanish"
-                    android:textColor="@color/colorPrimaryLight"
-                    android:textSize="@dimen/font_medium"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="@dimen/dimen_0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/population"
-                    android:textSize="@dimen/font_medium" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="@dimen/dimen_10dp"
-                    android:text="@string/millions"
-                    android:textColor="@color/colorPrimaryLight"
-                    android:textSize="@dimen/font_medium"
-                    android:textStyle="bold" />
-
-
-            </LinearLayout>
-        </LinearLayout>
-
-    </android.support.v7.widget.CardView>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/basic_info"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="@dimen/dimen_8dp"
-        android:layout_marginTop="@dimen/dimen_8dp"
-        android:text="@string/weather"
-        android:textColor="@color/black_backgrund"
-        android:textSize="@dimen/font_large" />
-
-    <android.support.v7.widget.CardView
-        android:id="@+id/weather_card"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/cardview_layout_height"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/cardview_two_layout_height">
-
-        <LinearLayout
+        <android.support.v7.widget.CardView
+            android:id="@+id/basic_info"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:weightSum="3">
+            android:layout_height="@dimen/cardview_layout_height"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/cardview_layout_marginTop">
 
             <LinearLayout
-                android:layout_width="@dimen/dimen_0dp"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="2">
 
-                <ImageView
-                    android:id="@+id/icon_weather"
-                    android:layout_width="@dimen/cityimag_layout_height"
-                    android:layout_height="@dimen/cityimag_layout_height"
-                    tools:src="@drawable/ic_sunrise" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/language"
+                        android:textSize="@dimen/font_medium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dimen_10dp"
+                        android:text="@string/spanish"
+                        android:textColor="@color/colorPrimaryLight"
+                        android:textSize="@dimen/font_medium"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/dimen_0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/population"
+                        android:textSize="@dimen/font_medium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dimen_10dp"
+                        android:text="@string/millions"
+                        android:textColor="@color/colorPrimaryLight"
+                        android:textSize="@dimen/font_medium"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/basic_info"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dimen_8dp"
+            android:layout_marginTop="@dimen/dimen_8dp"
+            android:text="@string/weather"
+            android:textColor="@color/black_backgrund"
+            android:textSize="@dimen/font_large" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/weather_card"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cardview_layout_height"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/cardview_two_layout_height">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="@dimen/dimen_0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/icon_weather"
+                        android:layout_width="@dimen/cityimag_layout_height"
+                        android:layout_height="@dimen/cityimag_layout_height"
+                        tools:src="@drawable/ic_sunrise" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/dimen_0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/condition_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/desc"
+                        android:textSize="@dimen/font_medium" />
+
+                    <TextView
+                        android:id="@+id/condition_field"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dimen_10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/font_medium"
+                        android:textStyle="bold"
+                        tools:text="@string/currentdesc" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/dimen_0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/temp_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/current"
+                        android:textSize="@dimen/font_medium" />
+
+                    <TextView
+                        android:id="@+id/current_temperature"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dimen_10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/font_medium"
+                        android:textStyle="bold"
+                        tools:text="@string/currenttemp" />
+
+                </LinearLayout>
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="@dimen/dimen_0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
+        </android.support.v7.widget.CardView>
 
-                <TextView
-                    android:id="@+id/condition_day"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/desc"
-                    android:textSize="@dimen/font_medium" />
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/weather_card"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/about"
+            android:textColor="@color/black_backgrund"
+            android:textSize="@dimen/font_large" />
 
-                <TextView
-                    android:id="@+id/condition_field"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="@dimen/dimen_10dp"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="@dimen/font_medium"
-                    android:textStyle="bold"
-                    tools:text="@string/currentdesc" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about"
+            android:layout_marginLeft="@dimen/dimen_8dp"
+            android:layout_marginRight="@dimen/dimen_8dp"
+            android:layout_marginTop="@dimen/dimen_8dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/basicinfo"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black_backgrund" />
 
-            </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
 
-            <LinearLayout
-                android:layout_width="@dimen/dimen_0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/temp_day"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/current"
-                    android:textSize="@dimen/font_medium" />
-
-                <TextView
-                    android:id="@+id/current_temperature"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="@dimen/dimen_10dp"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="@dimen/font_medium"
-                    android:textStyle="bold"
-                    tools:text="@string/currenttemp" />
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-    </android.support.v7.widget.CardView>
-
-    <TextView
-        android:id="@+id/about"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/weather_card"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/about"
-        android:textColor="@color/black_backgrund"
-        android:textSize="@dimen/font_large" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/about"
-        android:layout_marginLeft="@dimen/dimen_8dp"
-        android:layout_marginRight="@dimen/dimen_8dp"
-        android:layout_marginTop="@dimen/dimen_8dp"
-        android:fontFamily="sans-serif-condensed"
-        android:text="@string/basicinfo"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-        android:textColor="@color/black_backgrund" />
-
-</RelativeLayout>

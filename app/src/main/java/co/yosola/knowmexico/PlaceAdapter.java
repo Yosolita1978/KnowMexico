@@ -44,4 +44,6 @@ public class PlaceAdapter extends ArrayAdapter {
 
         return listItemView;
     }
+
+    
 }

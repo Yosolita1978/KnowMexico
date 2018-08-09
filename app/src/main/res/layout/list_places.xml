@@ -36,6 +36,8 @@
             android:textColor="@color/colorPrimaryDark"
             android:textSize="@dimen/font_large"
             android:textStyle="bold"
+            android:maxLines="1"
+            android:ellipsize="end"
             tools:text="@string/namePlaceOne" />
 
         <TextView
